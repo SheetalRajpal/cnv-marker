@@ -16,8 +16,11 @@ For data pre-processing, model construction, and visualization, Python libraries
 ### Executing program
 
 **Autoencoder.ipynb:** We first exploit the power of deep learning to build DLmodel -- a deep learning model comprising an autoencoder for dimensionality reduction. An autoencoder comprises an encoder and a decoder. The encoder network compresses a large number of input features to a small number of outputs. The outputs of the encoder network are fed to the decoder network which tries to reconstruct the original input data.
+
 **Phase2+3_DLModel.ipynb:** The second module of _DLmodel_ is a classifier modeled as a feed-forward neural network that takes as input, the output of the encoder module of the autoencoder (a vector of size 500). The network comprises a hidden layer having 200 nodes, followed by an output layer comprising five nodes representing the five breast cancer subtypes.
+
 **KneeLocator_Attributions_Positive_Analysis.ipynb**: CNV Biomarker Discovery Algorithm (CBDA) that incorporates different explainable AI methods to mark the relative relevance of the genes
+
 **Classifier_44+SHAP.ipynb**: Relevance of discovered biomarkers in distinguishing different breast cancer subtypes determined using SHapley Additive exExplanations (SHAP).
 
 
